@@ -1,0 +1,775 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+/* using tags selector */
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
+.sub-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.text-main-button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navigation {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.main-screen {
+  background-image: url(https://cdn.discordapp.com/attachments/911499570406653985/911499895570055208/main-bg.jpg);
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+a {
+  color: #ffffff !important;
+  font-family: "Open Sans";
+  line-height: 33px;
+}
+
+.main-bg-dark {
+  margin-top: -0.6px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.auth {
+  position: relative;
+  left: -100px;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  font-family: "Open Sans";
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: 0.3rem;
+  position: relative;
+  left: 80px;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  margin-left: 220px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: bold;
+  line-height: 16px;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0.1em;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+/* content main */
+
+main {
+  color: white;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+main h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 45px;
+  font-weight: bold;
+}
+
+main h3 {
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 45px;
+  font-weight: lighter;
+  text-transform: none;
+}
+
+.btn-warning {
+  background-color: #ffb548;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.scroll-down-button {
+  position: absolute;
+  bottom: 0px;
+  left: 47%;
+}
+
+.scroll-down-button a {
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.scroll-down {
+  margin-top: -100px;
+}
+
+/* page 2 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.the-game {
+  background-image: url(https://media.discordapp.net/attachments/911499570406653985/911522279530299433/the-games-bg.jpg?width=916&height=669);
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+.carousel-item {
+  width: 700px;
+  height: 400px;
+}
+
+.scissors {
+  position: relative;
+  margin-top: -1px;
+  top: 28%;
+}
+
+.about-gallery-text {
+  margin-top: -40px;
+  margin-right: 15px;
+}
+
+/* page 3 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.game-features {
+  background-image: url(https://media.discordapp.net/attachments/911499570406653985/911524503035736114/features.jpg?width=1011&height=670);
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 900px;
+}
+
+.game-features-text {
+  position: relative;
+  margin-top: -100px;
+  right: -400px;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 400px;
+  right: -100px;
+}
+
+.bullets {
+  position: relative;
+  margin-top: -175px;
+  right: 300px;
+}
+
+.white-circle {
+  border: 1px solid white;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: -2px;
+  top: 152px;
+}
+
+.vertical-line {
+  border-left: 2px solid white;
+  height: 145px;
+  position: absolute;
+  left: 5px;
+  top: 165px;
+}
+
+.black-circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 310px;
+  left: -1px;
+}
+
+.black-circle2 {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 395px;
+  left: -1px;
+}
+/* requirement */
+
+.requirement {
+  background-image: url(https://media.discordapp.net/attachments/911499570406653985/911655279165321276/Rectangle-systemreq.png?width=1004&height=670),
+    url(https://media.discordapp.net/attachments/911499570406653985/911655832591159326/requirements.png?width=1004&height=670);
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+.requirement h3 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 15%;
+}
+
+.requirement h1 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 60px;
+  position: relative;
+  top: 25%;
+  right: -9%;
+  color: #ffffff;
+}
+
+.table {
+  border: solid rgba(255, 255, 255, 0.2);
+  width: 573px;
+  position: relative;
+  top: 240px;
+  right: -9%;
+}
+
+.table td span {
+  color: #ffb548;
+  text-transform: uppercase;
+}
+
+.table td p {
+  color: #ffffff;
+}
+/* top score */
+
+.top-score {
+  background-image: url(https://media.discordapp.net/attachments/911499570406653985/911524635177259028/top-score-bg.png?width=1004&height=670),
+    url(https://media.discordapp.net/attachments/911499570406653985/911653167169687552/black-paper.jpg);
+  background-size: 100% 100%;
+  object-fit: contain;
+  height: 880px;
+  position: relative;
+}
+
+.top-score-text h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-top: 250px;
+  color: #ffffff;
+}
+
+.top-score-text h3 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.see-more {
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.col-data {
+  position: relative;
+  margin-top: 75px;
+}
+
+.picture {
+  float: left;
+  border-radius: 50px;
+  width: 50px;
+}
+
+.card-shape {
+  background-color: rgb(49, 49, 49);
+  width: 350px;
+  height: 150px;
+}
+
+.nama {
+  margin: 0px;
+  position: relative;
+  left: 20px;
+  color: #ffb548;
+}
+
+.sub-nama {
+  position: relative;
+  margin-top: -26px;
+  font-size: 14px;
+  color: gray;
+}
+
+.logo {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+.card-text {
+  position: relative;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: -20px;
+}
+/* last */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.the-last {
+  background-color: black;
+  height: 880px;
+}
+
+.col-pic {
+  background-image: url(https://media.discordapp.net/attachments/911499570406653985/911657009819054181/image.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 700px;
+  margin-top: 70px;
+}
+
+.the-last .col-text {
+  position: relative;
+  left: -100px;
+  top: -30px;
+  color: #ffffff;
+  width: 450px;
+}
+
+.the-last .form {
+  margin-right: 200px;
+}
+
+.the-last .form label {
+  position: absolute;
+  left: 20px;
+  top: 415px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19px;
+  opacity: 0.5;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.the-last .form-input {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+}
+
+::placeholder {
+  color: #ffb548;
+  position: relative;
+  top: 5px;
+}
+
+.the-last .col-text h3 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.the-last .col-text h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.col-footer1 {
+  position: relative;
+  top: 7px;
+  left: 160px;
+}
+
+.col-footer1 ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.col-footer1 ul li {
+  list-style-type: none;
+  margin-right: 60px;
+}
+
+.col-footer2 img {
+  display: inline-block;
+  margin-left: 65px;
+}
+
+.col-copyright {
+  color: #ffffff;
+}
+
+.col-policy {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 460px;
+}
+
+/* BASIC */
+
+html {
+  background-color: #56baed;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+a {
+  color: #92badd;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 40px 8px 10px 8px;
+  color: #cccccc;
+}
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* TABS */
+
+h2.inactive {
+  color: #cccccc;
+}
+
+h2.active {
+  color: #0d0d0d;
+  border-bottom: 2px solid #5fbae9;
+}
+
+/* FORM TYPOGRAPHY*/
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  box-shadow: 0 10px 30px 0 rgba(95, 186, 233, 0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #39ace7;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+input[type="text"] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* input[type="text"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+} */
+
+input[type="text"]:placeholder {
+  color: #cccccc;
+}
+
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.fadeIn.first {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-image: url(https://cdn.discordapp.com/attachments/911499570406653985/911499895570055208/main-bg.jpg);
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after {
+  width: 100%;
+}
+
+/* OTHERS */
+
+*:focus {
+  outline: none;
+}
+
+#icon {
+  width: 60%;
+}

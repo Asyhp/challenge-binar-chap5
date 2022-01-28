@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <%- include('partials/head')  %> 
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css-chap3.css"/>
+  
+</head>
+<body>
+  <div class="main-screen" >
+    <nav class="navbar navbar-expand-lg navbar-light main-bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about me</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-1 auth">
+            <li class="nav-item"><a class="nav-link" href="/register">sign up<a></li>
+            <li class="nav-item"><a class="nav-link" href="/login">login</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <div class="container">
+      <main>
+        <h1>play traditional game</h1>
+        <h3>Experience new traditional game play</h3>
+        <button type="button" class="btn btn-warning" style="text-transform: uppercase; font-weight: bold;"><a href="/login">play now</a></button>
+      </main>
+      <section class="scroll-down-button text-center display-8">
+        <a href="#" class="d-block text-decoration-none text-uppercase">the story</a>
+        <!-- <img class="scroll-down" src="assets/scroll down.svg" alt="scroll=down-button"> -->
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>
